@@ -1,5 +1,5 @@
 name: JoinLeaveMSG
 version: ${project.version}
-main: me.configz1.joinleavemsg.JoinLeaveMSG
-authors: [ ConfigZ1 ]
-description: Plugin that notifies you that you've joined or left the server in chat
+main: de.devilAPI.JoinLeaveMSG
+authors: [ ConfigZ1, devilAPI ]
+description: Join and Leave Messags, coded for NebulaMC

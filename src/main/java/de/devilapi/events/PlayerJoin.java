@@ -1,4 +1,4 @@
-package me.configz1.joinleavemsg.events;
+package de.devilapi.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -9,10 +9,10 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class PlayerJoin implements Listener {
 
     @EventHandler
-    void onPlayerJoin(PlayerJoinEvent e){
+    void onPlayerJoin(PlayerJoinEvent e) {
 
         Player player = e.getPlayer();
-        e.setJoinMessage(ChatColor.GREEN + "Welcome to <servername>!" +ChatColor.RED + player.getDisplayName());
+        e.setJoinMessage(ChatColor.YELLOW + player.getDisplayName() + ChatColor.GRAY + " joined the lobby.");
 
     }
 }
